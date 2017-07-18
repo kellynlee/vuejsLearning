@@ -1,8 +1,8 @@
-# my-project
+# vue-learning project
 
-> a learning project
+##a learning project
 
-## Build Setup
+## How to Build
 
 ``` bash
 # install dependencies
@@ -11,20 +11,16 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Category
+###1、数据搜索列表
+####使用elementUI，实现信息筛选、增、删、改。
+###2、数据穿梭框
+####实现左右两侧数据进行切换，选择其中一边的数据点击切换按钮，数据添加切换到另一边
+###3、v-for初探
+####使用v-for渲染列表，实现点击排序
+###4、输入信息检查
+####练习写正则表达式，使用两个组件，父子组件使用prop传参初探
+
+###配合vue router进行视图切换
